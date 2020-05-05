@@ -9,7 +9,8 @@ pipeline {
         }
         stage('Build Image') {
             steps {
-                bat "docker build -t='danpopa86/selenium-docker' ."
+                bat "docker build -t=danpopa86/selenium-docker ."
+            //comm
             }
         }
         stage('Push Image') {
