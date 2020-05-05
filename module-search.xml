@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="search-module" parallel="tests">
+    <test name="search-test-framework">
+        <parameter name="keyword" value="Selenium Framework" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest" />
+        </classes>
+    </test>
+    <test name="search-test-docker">
+        <parameter name="keyword" value="Selenium Docker" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest" />
+        </classes>
+    </test>
+    <test name="search-test-grid">
+        <parameter name="keyword" value="Selenium Grid" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest" />
+        </classes>
+    </test>
+</suite>

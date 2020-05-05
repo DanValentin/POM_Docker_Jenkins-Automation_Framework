@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="search-module" parallel="tests">
+    <test name="contact-us">
+        <classes>
+            <class name="com.onlinestore.tests.OnlineStore" />
+        </classes>
+    </test>
+</suite>

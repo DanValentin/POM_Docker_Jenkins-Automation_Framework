@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite">
+    <test name="book_flight_2_passengers">
+        <parameter name="noOfPassengers" value="2" />
+        <parameter name="expectedPrice" value="$1169 USD" />
+        <classes>
+            <class name="com.newtours.tests.BookFlightTest" />
+        </classes>
+    </test>
+    <test name="book_flight_3_passengers">
+        <parameter name="noOfPassengers" value="3" />
+        <parameter name="expectedPrice" value="$1753 USD" />
+        <classes>
+            <class name="com.newtours.tests.BookFlightTest" />
+        </classes>
+    </test>
+
+    <test name="contact-us">
+        <classes>
+            <class name="com.onlinestore.tests.OnlineStore" />
+        </classes>
+    </test>
+
+    <test name="search-test-framework">
+        <parameter name="keyword" value="Selenium Framework" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest" />
+        </classes>
+    </test>
+    <test name="search-test-docker">
+        <parameter name="keyword" value="Selenium Docker" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest" />
+        </classes>
+    </test>
+    <test name="search-test-grid">
+        <parameter name="keyword" value="Selenium Grid" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest" />
+        </classes>
+    </test>
+</suite>
