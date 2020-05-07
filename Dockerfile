@@ -11,7 +11,7 @@ WORKDIR /usr/share/proiectlicenta
 ADD target/selenium-docker.jar          selenium-docker.jar
 ADD target/selenium-docker-tests.jar    selenium-docker-tests.jar
 ADD target/libs                         libs
-#putem adauga mai multe tipuri de fisiere(.csv / .json etc) 
+#putem adauga mai multe tipuri de fisiere(.csv / .json etc), in functie de nevoile proiectului nostru!
 
 #Adaugam fisierele TestNG pentru a rula testele
 ADD module-book-flight.xml              module-book-flight.xml
