@@ -1,5 +1,5 @@
 pipeline {
-    // Jenkins master executor should be set to 0
+    // Jenkins master executor trebuie sa fie setat pe "0"
     agent any
     stages {
         stage('Build Jar') {
@@ -10,7 +10,6 @@ pipeline {
         stage('Build Image') {
             steps {
                 bat "docker build -t=danpopa86/selenium-docker ."
-            //comm
             }
         }
         stage('Push Image') {
