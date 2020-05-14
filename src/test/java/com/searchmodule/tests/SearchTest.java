@@ -18,6 +18,6 @@ public class SearchTest extends BaseTest {
         searchPage.doSearch(keyword);
         searchPage.goToVideos();
         int size = searchPage.getResult(); //aici stocam numarul de videouri in variabila  "size"
-        Assert.assertTrue(size > 0); //aici verificam ca numarul total de videouri este mai mare ca 0
+        Assert.assertTrue(size > 0); //aici verificam ca numarul total de video-uri este mai mare ca 0
     }
 }

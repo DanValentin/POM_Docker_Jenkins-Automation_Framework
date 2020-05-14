@@ -1,1 +1,2 @@
 "# ProiectLicenta" 
+Adding Allure Reports
