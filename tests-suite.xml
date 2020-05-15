@@ -33,6 +33,12 @@
             <class name="com.searchmodule.tests.SearchTest" />
         </classes>
     </test>
+    <test name="search-test-framework">
+        <parameter name="keyword" value="Automation Framework" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest" />
+        </classes>
+    </test>
     <test name="search-test-docker">
         <parameter name="keyword" value="Selenium Docker" />
         <classes>
