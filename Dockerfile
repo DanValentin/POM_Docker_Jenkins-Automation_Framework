@@ -27,4 +27,3 @@ RUN wget https://s3.amazonaws.com/selenium-docker/healthcheck/healthcheck.sh
 ENTRYPOINT sh healthcheck.sh
 #Comanda pentru pornirea testelor este apelata din scriptul "healthcheck.sh" de mai sus
 #java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* -DBROWSER=$BROWSER -DHUB_HOST=$HUB_HOST org.testng.TestNG $MODULE
-
