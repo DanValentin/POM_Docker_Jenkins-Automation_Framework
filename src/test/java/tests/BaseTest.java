@@ -14,7 +14,6 @@ public class BaseTest {
 
     protected WebDriver driver;
 
-
     //aici initializam ChromeDriver-ul
     // ITestContext este o clasa de la TestNG cu care putem extrage informatii din fisierul TestNG .xml
     @BeforeTest
@@ -48,13 +47,10 @@ public class BaseTest {
     }
 
 
-
     //aici inchidem ChromeDriver-ul
     @AfterTest
     public void quitDriver(){
         this.driver.quit();
         this.driver = null;
     }
-
-
 }
