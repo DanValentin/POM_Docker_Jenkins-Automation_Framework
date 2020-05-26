@@ -1,0 +1,8 @@
+com\newtours\pages\FindFlightPage.class
+com\newtours\pages\RegistrationConfirmationPage.class
+com\newtours\pages\FlightsDetailsPage.class
+com\newtours\pages\RegistrationPage.class
+com\newtours\pages\FlightConfirmationPage.class
+com\onlinestore\pages\OrderProducts.class
+com\searchmodule\pages\SearchPage.class
+com\onlinestore\pages\ContactUsPage.class
