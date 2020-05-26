@@ -21,7 +21,7 @@ pipeline {
                 //aici specificam ce credentiale sa foloseaca pentru a face push la imaginea nou creata in "hub.docker.com" - credentialele sunt definite in prealabil in Jenkins
 			    withCredentials([usernamePassword(credentialsId: 'dockerhub2', passwordVariable: 'pass', usernameVariable: 'user')]) {
 			        //aici executam comanda docker in care imaginea nou construita este urcata in "hub.docker.com" cu tag-ul "latest"
-			        //folosim "bat" daca rulam pe o masina cu windows, daca rulam pe o masina cu linux folosim  "sh"
+			        //folosim "bat" daca rulam pe o masina cu windows,  daca rulam pe o masina cu linux folosim  "sh"
 			        bat "docker push danpopa86/selenium-docker:latest"
 			    }
             }
