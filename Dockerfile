@@ -22,8 +22,6 @@ ADD tests-suite.xml                     tests-suite.xml
 #Aici descarc un script pentru a verifica daca nodurile de Selenium Grid sunt up and running inainte ca testele sa fie pornite
 RUN wget https://s3.amazonaws.com/selenium-docker/healthcheck/healthcheck.sh
 
-#Trebuiesc introduse 3 variabile dupa compilare: 
-#Browser(like: chrome or firefox), Host(like: localhost) and Module(like: book-flight-module or search-module)
+#Trebuiesc introduse 3 variabile dupa compilare: Browser(like: chrome or firefox), Host(like: localhost) and Module(like: book-flight-module or search-module)
 ENTRYPOINT sh healthcheck.sh
-#Comanda pentru pornirea testelor este apelata din scriptul "healthcheck.sh" de mai sus
-#java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* -DBROWSER=$BROWSER -DHUB_HOST=$HUB_HOST org.testng.TestNG $MODULE
+#Comanda pentru pornirea testelor este apelata din scriptul "healthcheck.sh" de mai sus(ex. comanda: java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* -DBROWSER=$BROWSER -DHUB_HOST=$HUB_HOST org.testng.TestNG $MODULE)
