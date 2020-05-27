@@ -1,58 +1,124 @@
-2020-05-26 18:11:31,254 DEBUG c.n.p.RegistrationPage [main] driver-ul este initializat
-2020-05-26 18:11:38,639 DEBUG c.n.p.RegistrationPage [main] pagina web este deschisa
-2020-05-26 18:11:38,893 DEBUG c.n.p.RegistrationPage [main] sunt introduse detaliile user-ului
-2020-05-26 18:11:39,275 DEBUG c.n.p.RegistrationPage [main] sunt introduse credentialele user-ului
-2020-05-26 18:12:53,109 DEBUG c.n.p.RegistrationPage [main] este apasat butonul Submit
-2020-05-26 18:12:53,188 DEBUG c.n.p.RegistrationConfirmationPage [main] driver-ul este initializat
-2020-05-26 18:13:03,075 DEBUG c.n.p.RegistrationConfirmationPage [main] este apasat butonul 'Flights
-2020-05-26 18:13:03,085 DEBUG c.n.p.FlightsDetailsPage [main] driver-ul este initializat
-2020-05-26 18:13:03,395 DEBUG c.n.p.FlightsDetailsPage [main] sunt selectati numarul de pasageri
-2020-05-26 18:13:10,414 DEBUG c.n.p.FlightsDetailsPage [main] este apasat butonul FindFlights 
-2020-05-26 18:13:10,422 DEBUG c.n.p.FindFlightPage [main] driver-ul este initializat
-2020-05-26 18:13:15,496 DEBUG c.n.p.FindFlightPage [main] este apasat butonul Reserve Flight
-2020-05-26 18:13:20,584 DEBUG c.n.p.FindFlightPage [main] este apasat butonul BuyFlights
-2020-05-26 18:13:20,593 DEBUG c.n.p.FlightConfirmationPage [main] driver-ul este initializat
-2020-05-26 18:13:34,223 DEBUG c.n.p.FlightConfirmationPage [main] Varificam daca suntem in confimation page si verificam si pretul
-2020-05-26 18:13:36,137 DEBUG c.n.p.RegistrationPage [main] driver-ul este initializat
-2020-05-26 18:13:44,580 DEBUG c.n.p.RegistrationPage [main] pagina web este deschisa
-2020-05-26 18:13:45,046 DEBUG c.n.p.RegistrationPage [main] sunt introduse detaliile user-ului
-2020-05-26 18:13:45,743 DEBUG c.n.p.RegistrationPage [main] sunt introduse credentialele user-ului
-2020-05-26 18:14:08,889 DEBUG c.n.p.RegistrationPage [main] este apasat butonul Submit
-2020-05-26 18:14:08,894 DEBUG c.n.p.RegistrationConfirmationPage [main] driver-ul este initializat
-2020-05-26 18:14:15,946 DEBUG c.n.p.RegistrationConfirmationPage [main] este apasat butonul 'Flights
-2020-05-26 18:14:15,954 DEBUG c.n.p.FlightsDetailsPage [main] driver-ul este initializat
-2020-05-26 18:14:16,269 DEBUG c.n.p.FlightsDetailsPage [main] sunt selectati numarul de pasageri
-2020-05-26 18:14:24,821 DEBUG c.n.p.FlightsDetailsPage [main] este apasat butonul FindFlights 
-2020-05-26 18:14:24,826 DEBUG c.n.p.FindFlightPage [main] driver-ul este initializat
-2020-05-26 18:14:32,693 DEBUG c.n.p.FindFlightPage [main] este apasat butonul Reserve Flight
-2020-05-26 18:14:42,036 DEBUG c.n.p.FindFlightPage [main] este apasat butonul BuyFlights
-2020-05-26 18:14:42,040 DEBUG c.n.p.FlightConfirmationPage [main] driver-ul este initializat
-2020-05-26 18:14:52,894 DEBUG c.n.p.FlightConfirmationPage [main] Varificam daca suntem in confimation page si verificam si pretul
-2020-05-26 18:14:54,691 DEBUG c.o.p.ContactUsPage [main] driver-ul este initializat
-2020-05-26 18:14:59,955 DEBUG c.o.p.ContactUsPage [main] pagina este deschisa
-2020-05-26 18:15:00,944 DEBUG c.o.p.ContactUsPage [main] este apasat butonul ContactUs
-2020-05-26 18:15:02,164 DEBUG c.o.p.ContactUsPage [main] aici este selectat motivul din formular
-2020-05-26 18:15:02,352 DEBUG c.o.p.ContactUsPage [main] aici este introdusa adresa de email
-2020-05-26 18:15:02,548 DEBUG c.o.p.ContactUsPage [main] aici este introdusa ordernumber
-2020-05-26 18:15:02,958 DEBUG c.o.p.ContactUsPage [main] aici este introdus mesajul text
-2020-05-26 18:15:04,394 DEBUG c.o.p.ContactUsPage [main] aici este apasat pe butonul Send
-2020-05-26 18:15:04,529 DEBUG c.o.p.ContactUsPage [main] aici este verificat daca formularul a fost trimis cu succes
-2020-05-26 18:15:04,534 DEBUG c.o.p.OrderProducts [main] driver-ul este initializat
-2020-05-26 18:15:11,832 DEBUG c.o.p.OrderProducts [main] suntem logati in aplicatie
-2020-05-26 18:15:14,896 DEBUG c.o.p.OrderProducts [main] am deschis cosul
-2020-05-26 18:15:16,215 DEBUG c.o.p.OrderProducts [main] am deschis checkout-ul
-2020-05-26 18:15:17,298 DEBUG c.o.p.OrderProducts [main] am trecut de adresa
-2020-05-26 18:15:18,547 DEBUG c.o.p.OrderProducts [main] am acceptat termenii si conditiile si am inaintat catre plata
-2020-05-26 18:15:21,239 DEBUG c.o.p.OrderProducts [main] comanda este plasata
-2020-05-26 18:15:29,688 DEBUG c.s.p.SearchPage [main] driver-ul este initializat
-2020-05-26 18:15:33,992 DEBUG c.s.p.SearchPage [main] pagina google este deschisa
-2020-05-26 18:15:35,810 DEBUG c.s.p.SearchPage [main] butonul 'video' este apasat
-2020-05-26 18:15:35,900 DEBUG c.s.p.SearchPage [main] este afisat numarul total de clipuri diponibile pe pagina
-2020-05-26 18:15:39,831 DEBUG c.s.p.SearchPage [main] driver-ul este initializat
-2020-05-26 18:15:43,703 DEBUG c.s.p.SearchPage [main] pagina google este deschisa
-2020-05-26 18:15:44,884 DEBUG c.s.p.SearchPage [main] butonul 'video' este apasat
-2020-05-26 18:15:44,959 DEBUG c.s.p.SearchPage [main] este afisat numarul total de clipuri diponibile pe pagina
-2020-05-26 18:15:52,075 DEBUG c.s.p.SearchPage [main] driver-ul este initializat
-2020-05-26 18:15:56,205 DEBUG c.s.p.SearchPage [main] pagina google este deschisa
-2020-05-26 18:15:57,927 DEBUG c.s.p.SearchPage [main] butonul 'video' este apasat
-2020-05-26 18:15:57,985 DEBUG c.s.p.SearchPage [main] este afisat numarul total de clipuri diponibile pe pagina
+2020-05-27 10:04:04,374 DEBUG c.n.p.RegistrationPage [main] driver-ul este initializat
+2020-05-27 10:04:05,981 DEBUG c.n.p.RegistrationPage [main] pagina web este deschisa
+2020-05-27 10:04:06,262 DEBUG c.n.p.RegistrationPage [main] sunt introduse detaliile user-ului
+2020-05-27 10:04:06,797 DEBUG c.n.p.RegistrationPage [main] sunt introduse credentialele user-ului
+2020-05-27 10:05:01,212 DEBUG c.n.p.RegistrationPage [main] este apasat butonul Submit
+2020-05-27 10:05:01,325 DEBUG c.n.p.RegistrationConfirmationPage [main] driver-ul este initializat
+2020-05-27 10:05:02,427 DEBUG c.n.p.RegistrationConfirmationPage [main] este apasat butonul 'Flights
+2020-05-27 10:05:02,436 DEBUG c.n.p.FlightsDetailsPage [main] driver-ul este initializat
+2020-05-27 10:05:02,857 DEBUG c.n.p.FlightsDetailsPage [main] sunt selectati numarul de pasageri
+2020-05-27 10:05:03,642 DEBUG c.n.p.FlightsDetailsPage [main] este apasat butonul FindFlights 
+2020-05-27 10:05:03,653 DEBUG c.n.p.FindFlightPage [main] driver-ul este initializat
+2020-05-27 10:05:05,025 DEBUG c.n.p.FindFlightPage [main] este apasat butonul Reserve Flight
+2020-05-27 10:05:06,196 DEBUG c.n.p.FindFlightPage [main] este apasat butonul BuyFlights
+2020-05-27 10:05:06,216 DEBUG c.n.p.FlightConfirmationPage [main] driver-ul este initializat
+2020-05-27 10:05:07,530 DEBUG c.n.p.FlightConfirmationPage [main] Varificam daca suntem in confimation page si verificam si pretul
+2020-05-27 10:05:10,836 DEBUG c.n.p.RegistrationPage [main] driver-ul este initializat
+2020-05-27 10:05:12,273 DEBUG c.n.p.RegistrationPage [main] pagina web este deschisa
+2020-05-27 10:05:13,095 DEBUG c.n.p.RegistrationPage [main] sunt introduse detaliile user-ului
+2020-05-27 10:05:14,395 DEBUG c.n.p.RegistrationPage [main] sunt introduse credentialele user-ului
+2020-05-27 10:07:00,922 DEBUG c.o.p.ContactUsPage [main] driver-ul este initializat
+2020-05-27 10:07:05,403 DEBUG c.o.p.ContactUsPage [main] pagina este deschisa
+2020-05-27 10:07:07,085 DEBUG c.o.p.ContactUsPage [main] este apasat butonul ContactUs
+2020-05-27 10:07:08,089 DEBUG c.o.p.ContactUsPage [main] aici este selectat motivul din formular
+2020-05-27 10:07:08,631 DEBUG c.o.p.ContactUsPage [main] aici este introdusa adresa de email
+2020-05-27 10:07:09,054 DEBUG c.o.p.ContactUsPage [main] aici este introdusa ordernumber
+2020-05-27 10:07:09,446 DEBUG c.o.p.ContactUsPage [main] aici este introdus mesajul text
+2020-05-27 10:07:10,521 DEBUG c.o.p.ContactUsPage [main] aici este apasat pe butonul Send
+2020-05-27 10:07:10,670 DEBUG c.o.p.ContactUsPage [main] aici este verificat daca formularul a fost trimis cu succes
+2020-05-27 10:07:10,689 DEBUG c.o.p.OrderProducts [main] driver-ul este initializat
+2020-05-27 10:07:18,220 DEBUG c.o.p.OrderProducts [main] suntem logati in aplicatie
+2020-05-27 10:07:21,602 DEBUG c.o.p.OrderProducts [main] am deschis cosul
+2020-05-27 10:07:23,460 DEBUG c.o.p.OrderProducts [main] am deschis checkout-ul
+2020-05-27 10:07:25,254 DEBUG c.o.p.OrderProducts [main] am trecut de adresa
+2020-05-27 10:07:27,399 DEBUG c.o.p.OrderProducts [main] am acceptat termenii si conditiile si am inaintat catre plata
+2020-05-27 10:07:30,797 DEBUG c.o.p.OrderProducts [main] comanda este plasata
+2020-05-27 10:07:30,947 DEBUG c.o.p.OrderProducts [main] verificarea efectuata cu success
+2020-05-27 10:07:32,923 DEBUG c.s.p.SearchPage [main] driver-ul este initializat
+2020-05-27 10:07:41,837 DEBUG c.s.p.SearchPage [main] pagina google este deschisa
+2020-05-27 10:07:44,809 DEBUG c.s.p.SearchPage [main] butonul 'video' este apasat
+2020-05-27 10:07:44,903 DEBUG c.s.p.SearchPage [main] este afisat numarul total de clipuri diponibile pe pagina
+2020-05-27 10:08:03,688 DEBUG c.s.p.SearchPage [main] driver-ul este initializat
+2020-05-27 10:08:08,426 DEBUG c.s.p.SearchPage [main] pagina google este deschisa
+2020-05-27 10:08:10,395 DEBUG c.s.p.SearchPage [main] butonul 'video' este apasat
+2020-05-27 10:08:10,566 DEBUG c.s.p.SearchPage [main] este afisat numarul total de clipuri diponibile pe pagina
+2020-05-27 10:08:18,347 DEBUG c.s.p.SearchPage [main] driver-ul este initializat
+2020-05-27 10:08:25,857 DEBUG c.s.p.SearchPage [main] pagina google este deschisa
+2020-05-27 10:08:29,188 DEBUG c.s.p.SearchPage [main] butonul 'video' este apasat
+2020-05-27 10:08:29,267 DEBUG c.s.p.SearchPage [main] este afisat numarul total de clipuri diponibile pe pagina
+2020-05-27 10:17:01,356 DEBUG c.o.p.ContactUsPage [TestNG-tests-1] driver-ul este initializat
+2020-05-27 10:17:05,939 DEBUG c.o.p.ContactUsPage [TestNG-tests-1] pagina este deschisa
+2020-05-27 10:17:06,547 DEBUG c.o.p.ContactUsPage [TestNG-tests-1] este apasat butonul ContactUs
+2020-05-27 10:17:08,273 DEBUG c.o.p.ContactUsPage [TestNG-tests-1] aici este selectat motivul din formular
+2020-05-27 10:17:08,973 DEBUG c.o.p.ContactUsPage [TestNG-tests-1] aici este introdusa adresa de email
+2020-05-27 10:17:09,304 DEBUG c.o.p.ContactUsPage [TestNG-tests-1] aici este introdusa ordernumber
+2020-05-27 10:17:09,605 DEBUG c.o.p.ContactUsPage [TestNG-tests-1] aici este introdus mesajul text
+2020-05-27 10:17:10,622 DEBUG c.o.p.ContactUsPage [TestNG-tests-1] aici este apasat pe butonul Send
+2020-05-27 10:17:10,709 DEBUG c.o.p.ContactUsPage [TestNG-tests-1] aici este verificat daca formularul a fost trimis cu succes
+2020-05-27 10:17:10,816 DEBUG c.o.p.OrderProducts [TestNG-tests-1] driver-ul este initializat
+2020-05-27 10:17:17,794 DEBUG c.o.p.OrderProducts [TestNG-tests-1] suntem logati in aplicatie
+2020-05-27 10:17:21,405 DEBUG c.o.p.OrderProducts [TestNG-tests-1] am deschis cosul
+2020-05-27 10:17:22,826 DEBUG c.o.p.OrderProducts [TestNG-tests-1] am deschis checkout-ul
+2020-05-27 10:17:23,974 DEBUG c.o.p.OrderProducts [TestNG-tests-1] am trecut de adresa
+2020-05-27 10:17:25,272 DEBUG c.o.p.OrderProducts [TestNG-tests-1] am acceptat termenii si conditiile si am inaintat catre plata
+2020-05-27 10:17:29,069 DEBUG c.o.p.OrderProducts [TestNG-tests-1] comanda este plasata
+2020-05-27 10:17:29,310 DEBUG c.o.p.OrderProducts [TestNG-tests-1] verificarea efectuata cu success
+2020-05-27 10:22:44,291 DEBUG c.n.p.RegistrationPage [main] driver-ul este initializat
+2020-05-27 10:22:45,532 DEBUG c.n.p.RegistrationPage [main] pagina web este deschisa
+2020-05-27 10:22:45,791 DEBUG c.n.p.RegistrationPage [main] sunt introduse detaliile user-ului
+2020-05-27 10:22:46,236 DEBUG c.n.p.RegistrationPage [main] sunt introduse credentialele user-ului
+2020-05-27 10:22:54,739 DEBUG c.n.p.RegistrationPage [main] este apasat butonul Submit
+2020-05-27 10:22:54,831 DEBUG c.n.p.RegistrationConfirmationPage [main] driver-ul este initializat
+2020-05-27 10:22:55,837 DEBUG c.n.p.RegistrationConfirmationPage [main] este apasat butonul 'Flights
+2020-05-27 10:22:55,848 DEBUG c.n.p.FlightsDetailsPage [main] driver-ul este initializat
+2020-05-27 10:22:56,125 DEBUG c.n.p.FlightsDetailsPage [main] sunt selectati numarul de pasageri
+2020-05-27 10:22:56,766 DEBUG c.n.p.FlightsDetailsPage [main] este apasat butonul FindFlights 
+2020-05-27 10:22:56,778 DEBUG c.n.p.FindFlightPage [main] driver-ul este initializat
+2020-05-27 10:22:57,980 DEBUG c.n.p.FindFlightPage [main] este apasat butonul Reserve Flight
+2020-05-27 10:22:59,005 DEBUG c.n.p.FindFlightPage [main] este apasat butonul BuyFlights
+2020-05-27 10:22:59,024 DEBUG c.n.p.FlightConfirmationPage [main] driver-ul este initializat
+2020-05-27 10:23:00,104 DEBUG c.n.p.FlightConfirmationPage [main] Varificam daca suntem in confimation page si verificam si pretul
+2020-05-27 10:23:01,343 DEBUG c.n.p.RegistrationPage [main] driver-ul este initializat
+2020-05-27 10:23:02,741 DEBUG c.n.p.RegistrationPage [main] pagina web este deschisa
+2020-05-27 10:23:03,259 DEBUG c.n.p.RegistrationPage [main] sunt introduse detaliile user-ului
+2020-05-27 10:23:03,955 DEBUG c.n.p.RegistrationPage [main] sunt introduse credentialele user-ului
+2020-05-27 10:23:25,149 DEBUG c.n.p.RegistrationPage [main] este apasat butonul Submit
+2020-05-27 10:23:25,154 DEBUG c.n.p.RegistrationConfirmationPage [main] driver-ul este initializat
+2020-05-27 10:23:26,178 DEBUG c.n.p.RegistrationConfirmationPage [main] este apasat butonul 'Flights
+2020-05-27 10:23:26,187 DEBUG c.n.p.FlightsDetailsPage [main] driver-ul este initializat
+2020-05-27 10:23:26,565 DEBUG c.n.p.FlightsDetailsPage [main] sunt selectati numarul de pasageri
+2020-05-27 10:23:27,277 DEBUG c.n.p.FlightsDetailsPage [main] este apasat butonul FindFlights 
+2020-05-27 10:23:27,285 DEBUG c.n.p.FindFlightPage [main] driver-ul este initializat
+2020-05-27 10:23:28,724 DEBUG c.n.p.FindFlightPage [main] este apasat butonul Reserve Flight
+2020-05-27 10:23:29,957 DEBUG c.n.p.FindFlightPage [main] este apasat butonul BuyFlights
+2020-05-27 10:23:29,963 DEBUG c.n.p.FlightConfirmationPage [main] driver-ul este initializat
+2020-05-27 10:23:31,219 DEBUG c.n.p.FlightConfirmationPage [main] Varificam daca suntem in confimation page si verificam si pretul
+2020-05-27 10:23:34,175 DEBUG c.o.p.ContactUsPage [main] driver-ul este initializat
+2020-05-27 10:23:40,103 DEBUG c.o.p.ContactUsPage [main] pagina este deschisa
+2020-05-27 10:23:41,225 DEBUG c.o.p.ContactUsPage [main] este apasat butonul ContactUs
+2020-05-27 10:23:42,366 DEBUG c.o.p.ContactUsPage [main] aici este selectat motivul din formular
+2020-05-27 10:23:42,559 DEBUG c.o.p.ContactUsPage [main] aici este introdusa adresa de email
+2020-05-27 10:23:42,690 DEBUG c.o.p.ContactUsPage [main] aici este introdusa ordernumber
+2020-05-27 10:23:42,901 DEBUG c.o.p.ContactUsPage [main] aici este introdus mesajul text
+2020-05-27 10:23:43,856 DEBUG c.o.p.ContactUsPage [main] aici este apasat pe butonul Send
+2020-05-27 10:23:44,001 DEBUG c.o.p.ContactUsPage [main] aici este verificat daca formularul a fost trimis cu succes
+2020-05-27 10:23:44,008 DEBUG c.o.p.OrderProducts [main] driver-ul este initializat
+2020-05-27 10:23:53,487 DEBUG c.o.p.OrderProducts [main] suntem logati in aplicatie
+2020-05-27 10:23:57,676 DEBUG c.o.p.OrderProducts [main] am deschis cosul
+2020-05-27 10:23:59,731 DEBUG c.o.p.OrderProducts [main] am deschis checkout-ul
+2020-05-27 10:24:01,134 DEBUG c.o.p.OrderProducts [main] am trecut de adresa
+2020-05-27 10:24:02,871 DEBUG c.o.p.OrderProducts [main] am acceptat termenii si conditiile si am inaintat catre plata
+2020-05-27 10:24:05,940 DEBUG c.o.p.OrderProducts [main] comanda este plasata
+2020-05-27 10:24:06,146 DEBUG c.o.p.OrderProducts [main] verificarea efectuata cu success
+2020-05-27 10:24:07,866 DEBUG c.s.p.SearchPage [main] driver-ul este initializat
+2020-05-27 10:24:15,101 DEBUG c.s.p.SearchPage [main] pagina google este deschisa
+2020-05-27 10:24:17,620 DEBUG c.s.p.SearchPage [main] butonul 'video' este apasat
+2020-05-27 10:24:17,730 DEBUG c.s.p.SearchPage [main] este afisat numarul total de clipuri diponibile pe pagina
+2020-05-27 10:24:36,111 DEBUG c.s.p.SearchPage [main] driver-ul este initializat
+2020-05-27 10:24:39,906 DEBUG c.s.p.SearchPage [main] pagina google este deschisa
+2020-05-27 10:24:41,897 DEBUG c.s.p.SearchPage [main] butonul 'video' este apasat
+2020-05-27 10:24:41,976 DEBUG c.s.p.SearchPage [main] este afisat numarul total de clipuri diponibile pe pagina
+2020-05-27 10:24:48,032 DEBUG c.s.p.SearchPage [main] driver-ul este initializat
+2020-05-27 10:24:53,503 DEBUG c.s.p.SearchPage [main] pagina google este deschisa
+2020-05-27 10:24:56,123 DEBUG c.s.p.SearchPage [main] butonul 'video' este apasat
+2020-05-27 10:24:56,394 DEBUG c.s.p.SearchPage [main] este afisat numarul total de clipuri diponibile pe pagina
