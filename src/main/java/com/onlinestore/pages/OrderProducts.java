@@ -143,7 +143,7 @@ public class OrderProducts {
     public void confirmationPage(){
         this.wait.until(ExpectedConditions.visibilityOf(confirmareComanda));
         String verificarePlata = this.confirmareComanda.getText();
-        String expectedText = "Your order on My Store is complete.1";
+        String expectedText = "Your order on My Store is complete.";
         Assert.assertEquals(verificarePlata, expectedText);
         logger.debug("verificarea efectuata cu success");
     }
