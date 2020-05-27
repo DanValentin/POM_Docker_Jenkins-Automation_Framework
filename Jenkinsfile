@@ -5,7 +5,7 @@ pipeline {
         stage('Build Jar') {
             steps {
                 //aici executam comanda maven care ne construieste fisierele de tip .jar ale proiectului nostru
-                //folosim "bat" daca rulam pe o masina cu windows, daca rulam pe o masina cu linux folosim "sh"
+                // folosim "bat" daca rulam pe o masina cu windows, daca rulam pe o masina cu linux folosim "sh"
                 bat "mvn clean package -DskipTests"
             }
         }
