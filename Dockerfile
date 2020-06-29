@@ -14,7 +14,7 @@ ADD target/libs                         libs
 #putem adauga mai multe tipuri de fisiere(.csv / .json etc), in functie de nevoile proiectului nostru !
 
 #Adaugam fisierele TestNG pentru a rula testele
-ADD module-book-flight.xml              module-book-flight.xml
+#ADD module-book-flight.xml              module-book-flight.xml
 ADD module-search.xml                   module-search.xml
 ADD module-online-order.xml             module-online-order.xml
 ADD tests-suite.xml                     tests-suite.xml
