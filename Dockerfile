@@ -19,7 +19,7 @@ ADD module-search.xml                   module-search.xml
 ADD module-online-order.xml             module-online-order.xml
 ADD tests-suite.xml                     tests-suite.xml
 
-#Aici descarc un script pentru a verifica daca nodurile de Selenium Grid sunt up and running inainte ca testele sa fie pornite
+# Aici descarc un script pentru a verifica daca nodurile de Selenium Grid sunt up and running inainte ca testele sa fie pornite
 RUN wget https://s3.amazonaws.com/selenium-docker/healthcheck/healthcheck.sh
 
 #Trebuiesc introduse 3 variabile dupa compilare: Browser(like: chrome or firefox), Host(like: localhost) and Module(like: book-flight-module or search-module)
