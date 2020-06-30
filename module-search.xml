@@ -12,7 +12,7 @@
             <class name="com.searchmodule.tests.SearchTest" />
         </classes>
     </test>
-    <test name="search-test-grid">
+    <test name="search-test--selenium-grid">
         <parameter name="keyword" value="Selenium Grid" />
         <classes>
             <class name="com.searchmodule.tests.SearchTest" />
