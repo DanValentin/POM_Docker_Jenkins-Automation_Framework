@@ -20,7 +20,7 @@ public class BaseTest {
     public void setupDriver(ITestContext ctx) throws MalformedURLException {
 
         //BROWSER => chrome / firefox
-        //HUB_HOST => localhost / 10.0.1.3 / hostname
+        //HUB_HOST => localhost / 10.0.1.3 / hostname .
 
         //aici sunt declarate valori default pentru  HUB_HOST si pt LOCALHOST
         String host = "localhost";
