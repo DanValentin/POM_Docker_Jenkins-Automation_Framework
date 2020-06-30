@@ -18,4 +18,10 @@
             <class name="com.searchmodule.tests.SearchTest" />
         </classes>
     </test>
+    <test name="search-test-selenium-grid2-">
+        <parameter name="keyword" value="Selenium Grid" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest" />
+        </classes>
+    </test>
 </suite>
